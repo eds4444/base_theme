@@ -22,7 +22,7 @@ if( have_rows('text') ): ?>
 				$t_img = get_sub_field('t_img');
 				  echo $t_text;?><br>
 			      <?php echo wp_get_attachment_image( $t_img['ID'], array( $t_img['width'], $t_img['height'] ) );?><br>
-				  <?php echo $t_text_area; ?><br>
+				  <?php echo $t_text_area; ?><br><br>
             <?php endwhile; ?>
 			</p>
 		</ul>
